@@ -55,7 +55,7 @@ Attributes: email, names, courses_registered, GPA
 Methods: calculate_GPA(), register_for_course()
 Course Class
 Attributes: name, trimester, credits
-Methods: None
+Methods: None.
 Grade Book Class
 Attributes: student_list, course_list
 Methods:
@@ -71,6 +71,6 @@ Prompt the user to choose an action (add student, add a course, register the stu
 Gather necessary input from the user (student information, course information, grade range)
 Display the results of the chosen action
 
-                            FEEL FREE TO REACH OUT TO ME FOR CLEARITY 
+                                                 FEEL FREE TO REACH OUT TO ME FOR CLEARITY 
 
 

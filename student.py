@@ -8,7 +8,7 @@ class Student:
         self.courses_registered = []  # List of courses registered
         self.grades = {}  # Dictionary: Course -> Grade
 
-    def calculate_GPA(self):
+    def calculate_gpa(self):
         if not self.courses_registered:
             return 0.0  # No courses, GPA is 0.0
 

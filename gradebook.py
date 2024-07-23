@@ -4,6 +4,7 @@ from student import Student
 from course import Course
 
 class GradeBook:
+
     def __init__(self):
         self.student_list = []
         self.course_list = []
@@ -22,7 +23,7 @@ class GradeBook:
         if student and course:
             student.register_for_course(course)
 
-    def calculate_GPA(self):
+    def calculate_gpa(self):
         for student in self.student_list:
             student.calculate_GPA()
 

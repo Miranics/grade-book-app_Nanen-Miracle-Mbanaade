@@ -1,7 +1,7 @@
 # gradebook.py
 
-from student import Student  # Import Student class from student folder
-from course import Course  # Import Course class from course folder
+from grade_book_app.student.student import Student  # Import Student class from student folder
+from grade_book_app.course.course import Course  # Import Course class from course folder
 
 class GradeBook:
     def __init__(self):

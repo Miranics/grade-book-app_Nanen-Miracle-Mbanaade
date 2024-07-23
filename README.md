@@ -71,3 +71,6 @@ Prompt the user to choose an action (add student, add a course, register the stu
 Gather necessary input from the user (student information, course information, grade range)
 Display the results of the chosen action
 
+                            FEEL FREE TO REACH OUT TO ME FOR CLEARITY 
+
+

@@ -1,4 +1,7 @@
+# grade_book_app/main.py
+
 from gradebook import GradeBook
+
 
 def main():
     gradebook = GradeBook()
@@ -58,6 +61,7 @@ def main():
 
         else:
             print("Invalid choice. Please try again.")
+
 
 if __name__ == "__main__":
     main()

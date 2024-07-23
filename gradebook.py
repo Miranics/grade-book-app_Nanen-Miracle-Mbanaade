@@ -1,4 +1,7 @@
-# This file defines the GradeBook class, managing students, courses, and functionalities.
+# gradebook.py
+
+from student import Student  # Import Student class from student folder
+from course import Course  # Import Course class from course folder
 
 class GradeBook:
     def __init__(self):
@@ -57,9 +60,8 @@ class GradeBook:
                 return student
         return None
 
-    def find_course(self, name):  # Fixed the indentation
+    def find_course(self, name):
         for course in self.course_list:
             if course.name == name:
                 return course
         return None
-

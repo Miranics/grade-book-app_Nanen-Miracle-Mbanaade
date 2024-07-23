@@ -57,4 +57,9 @@ class GradeBook:
                 return student
         return None
 
-    def find_course(self, name):
+    def find_course(self, name):  # Fixed the indentation
+        for course in self.course_list:
+            if course.name == name:
+                return course
+        return None
+

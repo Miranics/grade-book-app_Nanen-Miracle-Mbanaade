@@ -1,6 +1,6 @@
 # grade_book_app/main.py
 
-from gradebook import GradeBook
+from grade_book_app.gradebook import GradeBook
 
 
 def main():

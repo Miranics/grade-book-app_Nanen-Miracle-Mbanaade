@@ -1,12 +1,12 @@
-# This file defines the Student class, representing students in the GradeBook application.
+# student.py
 
 class Student:
     def __init__(self, email, first_name, last_name):
         self.email = email
         self.first_name = first_name
         self.last_name = last_name
-        self.courses_registered = []
-        self.grades = {}  # Course: grade dictionary
+        self.courses_registered = []  # List of courses registered
+        self.grades = {}  # Dictionary: Course -> Grade
 
     def calculate_GPA(self):
         if not self.courses_registered:
@@ -20,8 +20,7 @@ class Student:
 
     def register_for_course(self, course):
         self.courses_registered.append(course)
-        self.grades[course] = None  # Initialize grade
+        self.grades[course] = None  # Initialize grade as None
 
     def __str__(self):
         return f"Student: {self.first_name} {self.last_name} ({self.email})"
-

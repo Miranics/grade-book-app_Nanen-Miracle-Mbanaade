@@ -1,7 +1,7 @@
 # gradebook.py
 
-from grade_book_app.student.student import Student  # Import Student class from student folder
-from grade_book_app.course.course import Course  # Import Course class from course folder
+from student import Student
+from course import Course
 
 class GradeBook:
     def __init__(self):
@@ -17,8 +17,8 @@ class GradeBook:
         self.course_list.append(course)
 
     def register_student_for_course(self, student_email, course_name):
-        student = self.find_student(student_email)
-        course = self.find_course(course_name)
+        student = self.find_student(student_email)  # Call the new method here
+        course = self.find_course(course_name)  # Call the new method here
         if student and course:
             student.register_for_course(course)
 
@@ -54,13 +54,13 @@ class GradeBook:
                 grade = student.grades.get(course)
                 print(f"{course.name}\t {course.trimester}\t {course.credits}\t {grade}")
 
-    def find_student(self, email):
+    def find_student(self, email):  # Add this new method
         for student in self.student_list:
             if student.email == email:
                 return student
         return None
 
-    def find_course(self, name):
+    def find_course(self, name):  # Add this new method
         for course in self.course_list:
             if course.name == name:
                 return course

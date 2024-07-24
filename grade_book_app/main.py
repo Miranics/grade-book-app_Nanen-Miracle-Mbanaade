@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # grade_book_app/main.py
 
 from grade_book_app.gradebook import GradeBook

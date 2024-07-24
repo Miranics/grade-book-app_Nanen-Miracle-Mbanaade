@@ -1,4 +1,5 @@
-# grade_book_app/grade book.py
+#!/usr/bin/env python3
+#grade_book_app/grade book.py
 
 from grade_book_app.student import Student
 from grade_book_app.course import Course

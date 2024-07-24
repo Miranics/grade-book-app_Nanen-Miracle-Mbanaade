@@ -14,6 +14,8 @@ def main():
         print("4. Calculate ranking")
         print("5. Search by grade")
         print("6. Generate transcript")
+        print("7. View all students")
+        print("8. Delete student")
         print("0. Exit")
 
         choice = input("Enter your choice: ")
@@ -42,7 +44,7 @@ def main():
             ranking = gradebook.calculate_ranking()
             print("Student Ranking:")
             for rank, student in enumerate(ranking, start=1):
-                print(f"{rank}. {student.names} - GPA: {student.GPA}")
+                print(f"{rank}. {student.names} - GPA: {student.GPA:.2f}")
         elif choice == '5':
             grade = float(input("Enter grade to search by: "))
             students = gradebook.search_by_grade(grade)
@@ -59,12 +61,21 @@ def main():
                 print("Transcript:")
                 print(f"Name: {transcript['names']}")
                 print(f"Email: {transcript['email']}")
-                print(f"GPA: {transcript['GPA']}")
+                print(f"GPA: {transcript['GPA']:.2f}")
                 print("Courses:")
                 for course, grade in transcript['courses']:
                     print(f"Course: {course}, Grade: {grade}")
             except ValueError as e:
                 print(e)
+        elif choice == '7':
+            students = gradebook.view_all_students()
+            print("Registered Students:")
+            for student in students:
+                print(f"Name: {student.names}, Email: {student.email}, GPA: {student.GPA:.2f}")
+        elif choice == '8':
+            email = input("Enter student email to delete: ")
+            gradebook.delete_student(email)
+            print(f"Student with email {email} has been deleted.")
         elif choice == '0':
             print("Exiting the application.")
             break

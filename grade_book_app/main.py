@@ -7,7 +7,10 @@ def main():
     gradebook = GradeBook()
 
     while True:
-        print("\nChoose an action:")
+        print("\n______________________________________________"
+            "\n-WELCOME TO MIRANICS; a gradebook application-"
+              "  \n----------------------------------------------")
+        print("Select an option:")
         print("1. Add student")
         print("2. Add course")
         print("3. Register student for a course")
@@ -16,9 +19,9 @@ def main():
         print("6. Generate transcript")
         print("7. View all students")
         print("8. Delete student")
-        print("0. Exit")
+        print("0. End program...")
 
-        choice = input("Enter your choice: ")
+        choice = input("SELECT> ")
 
         if choice == '1':
             email = input("Enter student email: ")

@@ -29,4 +29,3 @@ class GradeBook:
     def generate_transcript(self, student):
         # Logic to generate transcript
         pass
-

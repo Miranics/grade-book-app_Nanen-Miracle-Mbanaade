@@ -80,7 +80,7 @@ def main():
             gradebook.delete_student(email)
             print(f"Student with email {email} has been deleted.")
         elif choice == '0':
-            print("Exiting the application.")
+            print("Exiting MIRANICS.")
             break
         else:
             print("Invalid choice, please try again.")

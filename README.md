@@ -50,7 +50,7 @@ Create transcripts for each student showing their GPA
 
 REQUIREMENTS
 
-Student Class
+Student Class;
 Attributes: email, names, courses_registered, GPA
 Methods: calculate_GPA(), register_for_course()
 Course Class

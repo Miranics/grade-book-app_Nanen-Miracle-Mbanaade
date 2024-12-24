@@ -23,7 +23,7 @@ Application of OOP concepts through a real-world project approach
 
 L03
 
-Application of data structures structure approach into projects
+Application of data structures structure approach into projects.
 
 LO4
 
@@ -69,8 +69,8 @@ generate_transcript()
 User Interface
 Prompt the user to choose an action (add student, add a course, register the student for a course, calculate the ranking, search by grade, generate transcript)
 Gather necessary input from the user (student information, course information, grade range)
-Display the results of the chosen action
+Display the results of the chosen action.
 
-                                                 FEEL FREE TO REACH OUT TO ME FOR CLEARITY 
+                                                 FEEL FREE TO REACH OUT TO ME FOR CLARITY 
                                                             002nasya@gmail.com
 

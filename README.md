@@ -61,7 +61,7 @@ Attributes: student_list, course_list
 Methods:
 add_student()
 add_course()
-register_student_for_course()
+register_student_for_course() 
 calculate_GPA()
 calculate_ranking()
 search_by_grade()

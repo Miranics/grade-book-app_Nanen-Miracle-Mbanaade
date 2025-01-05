@@ -4,7 +4,7 @@ AFRICAN LEADERSHIP UNIVERSITY
 INDIVIDUAL PROJECT
 BSE YEAR 1 TRIMESTER 2
 
-              BUILDING A GRADE BOOK APP
+              BUILDING A GRADE BOOK APP 
 
 
 The GradeBook Application uses Python as the main programming language for the architecture. We will use some programming techniques in the development process such as OOP, Data structures, File Handling, and arithmetic operations.

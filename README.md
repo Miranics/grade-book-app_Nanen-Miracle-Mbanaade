@@ -8,7 +8,7 @@ BSE YEAR 1 TRIMESTER 2
 
 
 The GradeBook Application uses Python as the main programming language for the architecture. We will use some programming techniques in the development process such as OOP, Data structures, File Handling, and arithmetic operations.  
-
+   
 
 LEARNING OUTCOMES
 By the end of this Assignment, You should be able to:

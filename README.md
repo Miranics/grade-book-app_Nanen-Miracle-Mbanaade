@@ -32,7 +32,7 @@ Code readability techniques and documentation
 LO5
 
 Project structuring. Organization of Files inside a project
-
+     
 
 PROJECT BRIEF
 

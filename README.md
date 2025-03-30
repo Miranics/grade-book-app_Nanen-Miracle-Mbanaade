@@ -37,7 +37,7 @@ Project structuring. Organization of Files inside a project
 PROJECT BRIEF
 
 The Grade Book Application is a Python program that allows users to create and manage student records, course records, and transcripts. It includes features for course registration, GPA calculation, and data structure search and ranking.
-
+     
 Objectives
 Create student records using user input
 Store student information, including email, names, and courses registered

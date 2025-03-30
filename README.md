@@ -57,7 +57,7 @@ Course Class
 Attributes: name, trimester, credits
 Methods: None.
 Grade Book Class
-Attributes: student_list, course_list
+Attributes: student_list, course_list   
 Methods:
 add_student()
 add_course()

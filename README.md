@@ -17,7 +17,7 @@ LO1
 
 Python syntax comprehension through practice project
 
-LO2
+LO2    
 
 Application of OOP concepts through a real-world project approach
 

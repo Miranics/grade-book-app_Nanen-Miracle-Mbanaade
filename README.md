@@ -1,7 +1,7 @@
-                                                            
+                                                                
 
 AFRICAN LEADERSHIP UNIVERSITY         
-INDIVIDUAL PROJECT      
+INDIVIDUAL PROJECT           
 BSE YEAR 1 TRIMESTER 2  
     
               BUILDING A GRADE BOOK APP 

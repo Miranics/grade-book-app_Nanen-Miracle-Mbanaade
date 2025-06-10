@@ -11,7 +11,7 @@ The GradeBook Application uses Python as the main programming language for the a
    
 
 LEARNING OUTCOMES
-By the end of this Assignment, You should be able to:
+By the end of this Assignment, You should be able to:                     
 
 LO1
 
